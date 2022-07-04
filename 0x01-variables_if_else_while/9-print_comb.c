@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/**main-print all possible combinations of single digit numbers
+/**
+ * main-print all possible combinations of single digit numbers
  * followed by a space
  * Return: 0 if successful
  */
@@ -19,4 +20,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
+ }
