@@ -18,7 +18,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	putcher('\n');
+	putchar('\n');
 	return (0);
 }
 
