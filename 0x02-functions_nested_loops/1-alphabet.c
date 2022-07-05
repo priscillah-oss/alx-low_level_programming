@@ -1,18 +1,20 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Return:Always 0 (successful)
+ * Description: Prints the alphabet with _putchar
+ *
+ * Return:void
+ *
  */
-int main(void);
+
+void print_alphabet(void)
 {
-	char letter;
+	char c;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
 
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
