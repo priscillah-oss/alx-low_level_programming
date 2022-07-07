@@ -2,16 +2,21 @@
 #include <stdio.h>
 
 /**
-*_isupper - checks for uppercase character
+* _isupper-evaluate if letter is uppercase
+*@c: print int
+* Return: 0 if successful
 */
 
 int _isupper(int c)
 {
-int upper;
-upper = isupper(c);
-
-if(upper == 0)
-	return 0;
-else
+if (c >= 'A' && c <= 'Z')
+{
 return (1);
+}
+
+else
+{
+return (0);
+}
+
 }
