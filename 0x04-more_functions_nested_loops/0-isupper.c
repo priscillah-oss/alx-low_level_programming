@@ -1,4 +1,6 @@
 #include "main.h"
+#include <ctype.h>
+
 /**
 *_isupper-evaluate if letter is uppercase
 *@c: print int
