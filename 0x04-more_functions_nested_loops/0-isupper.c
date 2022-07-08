@@ -1,17 +1,23 @@
-#include <stdio.h>
-#include <ctype.h>
-/*
- * int isupper(character)
- * return --->non zero -->character isuppercase
- * return ---> zero ---> character is not uppercase
- */
-int main()
-{
-char str = 'a';
-if(isupper(str) ==0) {printf("not uppercase");
-}
-else
-{printf("Uppercase");}
+#include "main.h"                                                 
+#include <stdio.h>                                                
+#include <ctype.h>                                                
 
-return 0;
+/**                                                               
+* _isupper-evaluate if letter is uppercase                        
+*@c: print int                                                    
+* Return: 0 if successful                                         
+*/                                                                
+
+int _isupper(int c)                                               
+{                                                                 
+if (c >= 'A' && c <= 'Z')                                         
+{                                                                 
+return (1);                                                       
+}                                                                 
+
+else                                                              
+{                                                                 
+return (0);                                                       
+}
+
 }
