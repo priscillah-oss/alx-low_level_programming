@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <ctype.h>
-
+/*
+ * int isupper(character)
+ * return --->non zero -->character isuppercase
+ * return ---> zero ---> character is not uppercase
+ */
 int main()
 {
-char c;
-
-c = 'C';
-printf("Return value when uppercase character %c is passed to isupper(): %d", c, isupper(c));
-
-c = '+';
-printf("\nReturn value when another character %c is passed to is isupper(): %d", c, isupper(c));
+char str = 'a';
+if(isupper(str) ==0) {printf("not uppercase");
+}
+else
+{printf("Uppercase");}
 
 return 0;
 }
