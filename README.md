@@ -1,1 +1,1 @@
-Static lib
+Low level programming
