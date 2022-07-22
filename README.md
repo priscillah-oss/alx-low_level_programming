@@ -1,1 +1,1 @@
-My first low level programming
+Static lib
