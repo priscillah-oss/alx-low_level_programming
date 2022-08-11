@@ -2,7 +2,7 @@
 /**
  *free_list - frees memory from list
  *@head: pointer to the list
- *Author: Onyiana
+ *Author: Priscillah
  */
 void free_list(list_t *head)
 {
