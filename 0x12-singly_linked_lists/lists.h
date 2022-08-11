@@ -9,9 +9,8 @@
  *@str: string - placed in memory
  *@len: length of the string
  *@next: next point in the node
- *Author: Onyiana
+ *Author: Priscillah
  *Description: singly linked list structure
- *for Holberton project
  */
 typedef struct list_s
 {
