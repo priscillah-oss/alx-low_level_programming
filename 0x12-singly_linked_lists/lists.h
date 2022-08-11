@@ -11,6 +11,7 @@
  *@next: next point in the node
  *Author: Priscillah
  *Description: singly linked list structure
+ *for Holberton project
  */
 typedef struct list_s
 {
